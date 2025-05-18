@@ -1,3 +1,55 @@
-# Kayee... Chat Application
+# Go Chat App
 
-A detailed article is published on [Medium](https://levelup.gitconnected.com/create-a-chat-application-in-golang-with-redis-and-reactjs-c75611717f84).
+## Стек технологий
+- Go
+- WebSocket
+- React
+- HTML/CSS/JS
+- Docker
+
+## О проекте
+Простое чат-приложение на Go. Можно общаться в реальном времени.
+
+## Как запустить
+
+1. Клонируйте репозиторий:
+   ```
+   git clone https://github.com/yourusername/go-chat-app.git
+   ```
+
+2. Перейдите в папку проекта:
+   ```
+   cd go-chat-app
+   ```
+
+3. Установите зависимости для клиента:
+   ```
+   cd client
+   npm install
+   ```
+
+4. Запустите сервер:
+   ```
+   go run main.go
+   ```
+
+5. Запустите клиент (React-приложение):
+   ```
+   cd client
+   npm start
+   ```
+
+6. Откройте браузер и перейдите по адресу:
+   ```
+   http://localhost:3000
+   ```
+
+## Как пользоваться
+
+- Введите имя пользователя.
+- Пишите сообщения в чат.
+- Все сообщения видны всем пользователям.
+
+## Демка
+
+![](https://github.com/schadokar/go-chat-app/blob/main/Videos%20(1).gif)
